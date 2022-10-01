@@ -26,3 +26,6 @@ export NIX_PATH=$HOME/.nix-defexpr/channels:/nix/var/nix/profiles/per-user/root/
 export PATH=$PATH:"/mnt/c/Program Files/Microsoft VS Code/bin"
 
 # original aliases
+alias vi='nvim'
+alias vim='nvim'
+alias emacs='nvim'
