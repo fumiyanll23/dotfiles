@@ -28,3 +28,8 @@ export PS1="\t \[\e[1;32m\]\w\[\e[0m\]\n\[\e[1;33m\](★'-') < \[\e[0m\]"
 
 # configure Visual Studio Code (System Installed) PATH
 export PATH=$PATH:"/mnt/c/Program Files/Microsoft VS Code/bin"
+
+# configure pyenv PATH
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
