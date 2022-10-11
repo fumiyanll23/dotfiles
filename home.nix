@@ -8,6 +8,7 @@
     packages = with pkgs; [
       cachix
       niv
+      python3
     ];
     stateVersion = "21.11";
   };
