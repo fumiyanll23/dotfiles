@@ -1,4 +1,4 @@
-# My Awesome Bash Configuration ".bashrc"
+# My Awesome Bash Configuration
 # original aliases
 alias h="history"
 alias hs="history | grep"
