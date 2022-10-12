@@ -1,4 +1,4 @@
-# My Awesome Home Manager Configure
+# My Awesome Home Manager Configuration
 { config, pkgs, ... }:
 
 {
