@@ -1,5 +1,5 @@
 # My Awesome Bash Configuration
-# original aliases
+# Original aliases
 alias h="history"
 alias hs="history | grep"
 alias hsi="history | grep -i"
@@ -11,9 +11,9 @@ alias view="nvim -R"
 alias vim="nvim"
 alias emacs="nvim"
 alias relogin="exec $SHELL -l"
-alias cat="bat"
+alias bat="batcat"
 
-# input a new line after output
+# Input a new line after output
 function add_line {
   if [[ -z "${PS1_NEWLINE_LOGIN}" ]]; then
     PS1_NEWLINE_LOGIN=true
@@ -23,13 +23,13 @@ function add_line {
 }
 PROMPT_COMMAND='add_line'
 
-# configure bash prompt
+# Configure bash prompt
 export PS1="\t \[\e[1;32m\]\w\[\e[0m\]\n\[\e[1;33m\](★'-') < \[\e[0m\]"
 
-# configure Visual Studio Code (System Installed) PATH
+# Configure Visual Studio Code (System Installed) PATH
 export PATH=$PATH:"/mnt/c/Program Files/Microsoft VS Code/bin"
 
-# configure pyenv PATH
+# Configure pyenv PATH
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
