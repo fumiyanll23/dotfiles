@@ -35,7 +35,7 @@ function add_line {
 PROMPT_COMMAND='add_line'
 
 # Configure zsh prompt.
-export PROMPT="%D{%Y/%m/%d} %* %n %F{46}%B%~%b%f
+export PROMPT="%D{%Y/%m/%d} %* %F{46}%B%~%b%f
 %F{228}%B(★'-') <%b%f "
 
 # Configure Visual Studio Code (System Installed) PATH.
