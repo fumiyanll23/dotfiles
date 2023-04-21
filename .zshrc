@@ -23,7 +23,6 @@ alias view="nvim -R"
 alias vim="nvim"
 alias emacs="nvim"
 alias relogin="exec $SHELL -l"
-alias bat="batcat"
 
 # Input a new line after output.
 function add_line {
